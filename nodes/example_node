@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+import rospy as rp
+from py_ros_test_example.example_lib import Counter
+
+
+def main():
+    rp.init_node('py_ros_test_example_node')
+    rp.spin()
+
+
+if __name__ == '__main__':
+    main()
