@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="py_ros_test_example" type="example_node" name="example_node" />
+  <test test-name="example_node_previous_srv_test" pkg="py_ros_test_example" type="example_node_prev_service_test.py" />
+</launch>

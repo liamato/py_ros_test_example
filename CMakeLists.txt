@@ -206,4 +206,7 @@ if(CATKIN_ENABLE_TESTING)
 
   find_package(rostest REQUIRED)
   add_rostest(test/example_node_api.test)
+  add_rostest(test/default_pub/example_node_default_pub.test)
+  add_rostest(test/next_service/example_node_next_service.test)
+  add_rostest(test/prev_service/example_node_prev_service.test)
 endif()
